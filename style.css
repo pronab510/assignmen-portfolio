@@ -18,24 +18,83 @@ h1{
     
 }
 section{
-    display:flex;
-    padding-bottom: 5px;
-
-    
+ 
+    display: flex;
+    flex-direction: row;
+   
 }
 .half_width{
       width: 50%;
-    padding: 5% 3% 5% 3%;
-      
 }
-.half_width img{
-    width: 90%;
-    
+.half_width img
+{
+    width: 100%;
+}
+.half_width .img-padding{
+
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
 }
 .frame{
     background-image: url(./images/7.png);
     background-repeat: no-repeat;
 }
+.card{
+    width: 30%;
+    text-align: center;
+    padding: 20px 20px;
+    box-shadow: 5px 10px 5px rgba(24, 22, 19, 0.349) ;
+
+}
+.card img{
+
+    width: 100%;
+    padding-bottom: 50px;
+
+}
+.menu{
+display: flex;
+text-align: center;
+padding-bottom: 20px;
 
 
+}
+h4{
+    text-align: center;
+    color: rgb(68, 53, 209);
 
+}
+
+.item-details
+{
+    width:30% ;
+    text-align: center;
+    padding-left: 5% ;
+    padding-right: 5%;
+   
+}
+.contact{
+    border-radius:25px;
+    text-align: center;
+    background-color: seagreen;
+}
+.orange{
+    
+    color: orange;
+    background-color: pink;
+    background-image:linear-gradient(red orange);
+    
+    
+}
+footer
+{
+     background-color: rgb(199, 158, 158);
+     text-align: center;
+     border-radius:25px;
+
+}
+
+.foot{
+    color: chartreuse;
+}
