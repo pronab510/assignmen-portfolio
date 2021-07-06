@@ -14,6 +14,7 @@ h1{
     border-radius:10px;
     background-color: lightpink;
     background-image: linear-gradient(red blue);
+    font-weight: 500;
     
 }
 section{
@@ -28,8 +29,8 @@ section{
       
 }
 .half_width img{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    
 }
 .frame{
     background-image: url(./images/7.png);
